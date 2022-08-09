@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #b1b1b1;
+    background-color: #F3F6FF;
+    color: #28010d;
+}
+
+.bg-color-orange {
+    background-color: orange;
+}
+
+.logo {
+    background-image: url("../assets/logo-cucharas.svg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 5px;
+    min-height: 50px;
+    min-width: 40px;
+
+    transition: all .3s ease-in-out;
+}
+
+.logo:hover{
+    transform: rotate(-180deg);
+}
+
+#hero{
+    background-image: url("../assets/comidaveggie-backgroundimage.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.items{
+    min-width: 200px;
+    min-height: 200px;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+.items:hover {
+    color: orange;
+    cursor: pointer;
+    filter: blur(1px);
+    transition:all 1.05s ease-in-out;    
+}
+
+.item1 {
+    background-image: url("../assets/pexels-3.jpg");
+    background-image: no-repeat;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+.item2 {
+    background-image: url("../assets/pexels-1.jpg");
+    background-image: no-repeat;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
+@media (max-width: 870px) {
+    .firma > p {
+        font-size: 0.8rem;
+
+    }
+    h1{
+        color: #F3F6FF;
+    }
+    h3{
+        background-color: whitesmoke;
+        border-radius: 3px;
+        text-align: center;
+        padding: 5px;
+    }
+  }
