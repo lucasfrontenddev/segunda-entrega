@@ -13,126 +13,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
 </head>
+
 <body>
-    <!-- navegador - menú -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-color-orange">
-        <div class="container-fluid">
-        <!-- logo -->
-            <a class="navbar-brand" href="#">
-                <i class="bi bi-flower1"></i>
-                <span class="text-warning">            
-                    <div class="logo">
-                    </div>
-                </span>
-            </a>
-        <!-- boton de menú -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-black"></span>
-            </button>
-        
-        <!-- elementos del menú colapsable -->
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active text-black" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="../pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="../pages/galeria.html">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-black" href="../pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- navegador - menú -->
+        <nav class="navbar navbar-expand-md bg-color-orange">
+            <div class="container-fluid">
+            <!-- logo -->
+                <div class="logo">
+                </div>
+            <!-- boton de menú -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+            <!-- elementos del menú colapsable -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-black" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+    
+                    <hr>
+    
+                <!-- enlaces redes sociales -->
+                    <ul class="navbar-nav flex-row flex-wrap text-black">
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-facebook-f"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-twitter"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-instagram"></div>
+                        </li>
+    
+                        <li class="nav-item col-3 col-md-auto p-3">
+                            <div class="fab fa-youtube"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>  
+        </nav>
+        <!-- fin navegador - menú -->
+    </header>
 
-                <hr class="d-md-none text-black">
-
-            <!-- enlaces a redes sociales -->
-                <ul class="navbar-nav flex-row flex-wrap text-black">
-                    <li class="nav-item col-3 col-md-auto p-3">
-                        <i class="fab fa-facebook-f"></i>
-                    </li>
-
-                    <li class="nav-item col-3 col-md-auto p-3">
-                        <i class="fab fa-twitter"></i>
-                    </li>
-
-                    <li class="nav-item col-3 col-md-auto p-3">
-                        <i class="fab fa-instagram"></i>
-                    </li>
-
-                    <li class="nav-item col-3 col-md-auto p-3">
-                        <i class="fab fa-youtube"></i>
-                    </li>
-                </ul>
-            </div>
-        </div>  
-    </nav>
-    <!-- fin navegador - menú -->
-
-    <!-- galería -->
-    <div class="row m-4">
+    <main class="row m-4">
+        <!-- galería -->
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <article class="items item1 rounded mb-4">
-                <h3>Receta 1</h3>
+                <h3>Pastas</h3>
             </article>
     
             <article class="items item2 rounded mb-4">
-                <h3>Receta 2</h3>
+                <h3>Postres</h3>
             </article>
 
-            <article class="items item1 rounded mb-4">
-                <h3>Receta 3</h3>
+            <article class="items item3 rounded mb-4">
+                <h3>Salteados</h3>
             </article>
         </div>
-    
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <article class="items item2 rounded mb-4">
-                <h3>Receta 4</h3>
+            <article class="items item4 rounded mb-4">
+                <h3>Burgers</h3>
             </article>
     
-            <article class="items item1 rounded mb-4">
-                <h3>Receta 5</h3>
+            <article class="items item5 rounded mb-4">
+                <h3>Brusquetas</h3>
             </article>
 
-            <article class="items item2 rounded mb-4">
-                <h3>Receta 6</h3>
+            <article class="items item6 rounded mb-4">
+                <h3>Ensaladas</h3>
             </article>
         </div>
-    
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <article class="items item1 rounded mb-4">
-                <h3>Receta 7</h3>
+            <article class="items item7 rounded mb-4">
+                <h3>Hongos</h3>
             </article>
     
-            <article class="items item2 rounded mb-4">
-                <h3>Receta 8</h3>
+            <article class="items item8 rounded mb-4">
+                <h3>cuscús</h3>
             </article>
 
-            <article class="items item1 rounded mb-4">
-                <h3>Receta 9</h3>
+            <article class="items item9 rounded mb-4">
+                <h3>De autor</h3>
             </article>
         </div>
-    </div>
-    <!-- fin galería -->
+        <!-- fin galería -->
+    </main>
 
     <!-- footer -->
-    <div class="container-fluid bg-color-orange">
+    <footer class="container-fluid bg-color-orange">
         <div class="row">
-            <div class="col-4">
-            </div>
-            <div class="col-4">
-            <div class="firma p-2">
-                <p>&copy; Derechos reservados. Diseñado por <a href="https://www.lucasmartine.com" class="lead">Martinez Lucas</a>
+            <div class="d-flex justify-content-center">                   
+                <p>&copy; Derechos reservados. Diseñado por <a href="https://www.lucasmartinez.com" class="lead">Martinez Lucas</a>
                 </p>
             </div>
-            </div>
-            <div class="col-4"></div>
-            </div>
         </div>
-    </div>
+    </footer>
     <!-- fin footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
