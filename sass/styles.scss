@@ -196,7 +196,26 @@ body {
                 }
             }
         }
+        #contacto{
+            background-image: url("../assets/a1.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat;
+            min-height: 90vh;
+            div{
+                .form-container{
+                    background-color: rgba(0,0,0,0.55);
+                    color:white;
+                    .contactenos{
+                        background-color: transparent;
+                    }
+                    .card{
+                        background-color: rgba(255, 166, 0, 0.322);
+                    }
+                }
+            }
+        }
     }
+
     footer{
         background-color: $bg-color-orange;
 

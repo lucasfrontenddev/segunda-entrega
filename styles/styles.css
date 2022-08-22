@@ -148,6 +148,22 @@ body main .container div div div .ubicacion {
   max-width: 300px;
   max-height: 300px;
 }
+body main #contacto {
+  background-image: url("../assets/a1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+body main #contacto div .form-container {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+}
+body main #contacto div .form-container .contactenos {
+  background-color: transparent;
+}
+body main #contacto div .form-container .card {
+  background-color: rgba(255, 166, 0, 0.322);
+}
 body footer {
   background-color: orange;
 }
