@@ -85,6 +85,9 @@ body main #hero .title-container .humo {
 body main #hero .title-container h3 {
   font-size: 3rem;
 }
+body main #galeria {
+  padding-top: 70px;
+}
 body main div {
   /* Galeria */
 }
