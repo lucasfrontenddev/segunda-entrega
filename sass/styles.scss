@@ -28,6 +28,11 @@ body {
     background-color: #F3F6FF;
     color: #28010d;
     header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
         nav{
             background-color: $bg-color-orange;
             .container-fluid{
@@ -49,20 +54,16 @@ body {
                     ul{
                         li{
                             .fa-facebook-f{
-                                color: map-get($map: $colores-redes, 
-                                $key: facebook);
-                            }
-                            .fa-twitter{
-                                color: map-get($map: $colores-redes, 
-                                $key: twitter);
+                                color: rgb(9, 8, 8);
                             }
                             .fa-instagram{
-                                color: map-get($map: $colores-redes, 
-                                $key: instagram);
+                                color: rgb(9, 8, 8);
+                            }
+                            .fa-twitter{
+                                color: rgb(9, 8, 8);
                             }
                             .fa-youtube{
-                                color: map-get($map: $colores-redes, 
-                                $key: youtube);
+                                color: rgb(9, 8, 8);
                             }
                         }
                     }

@@ -13,6 +13,13 @@ body {
   background-color: #F3F6FF;
   color: #28010d;
 }
+body header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 body header nav {
   background-color: orange;
 }
@@ -29,16 +36,16 @@ body header nav .container-fluid .logo:hover {
   transform: rotate(-180deg);
 }
 body header nav .container-fluid .collapse ul li .fa-facebook-f {
-  color: #3b5998;
-}
-body header nav .container-fluid .collapse ul li .fa-twitter {
-  color: #00acee;
+  color: rgb(9, 8, 8);
 }
 body header nav .container-fluid .collapse ul li .fa-instagram {
-  color: #C13584;
+  color: rgb(9, 8, 8);
+}
+body header nav .container-fluid .collapse ul li .fa-twitter {
+  color: rgb(9, 8, 8);
 }
 body header nav .container-fluid .collapse ul li .fa-youtube {
-  color: #c4302b;
+  color: rgb(9, 8, 8);
 }
 body main {
   min-height: 90vh;
