@@ -99,7 +99,7 @@ body main div div article .cita, body main div div article p span {
   font-size: 1.3rem;
   background-color: rgba(214, 214, 214, 0.3921568627);
 }
-body main div div img {
+body main div div .alice {
   border-radius: 15px;
   box-shadow: 0px 10px 10px black;
 }
